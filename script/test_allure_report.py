@@ -16,8 +16,6 @@ class TestAllure:
     def test_a(self, a):
         print('test_a')
         allure.attach('title 啦', '这个是执行详细步骤结果')
-        assert a != 2
 
     def test_b(self):
         print('test_b')
-        assert 0
